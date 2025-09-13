@@ -1,0 +1,6 @@
+# TVM not installed. Simulated Relay IR (optimized, opt_level=2)
+def func():
+    # simulated ops
+    conv = nn.conv2d(...)
+    bn = nn.batch_norm(conv)
+    relu = nn.relu(bn)
